@@ -29,6 +29,7 @@ public class SprinklerImpl {
             } else {
                 //abnormal...
             }
+            //TODO send notification to cloud
             reader.close();
 
         } catch (IOException e) {
@@ -59,6 +60,7 @@ public class SprinklerImpl {
             } else {
                 //abnormal...
             }
+            //TODO send notification to cloud
             reader.close();
 
         } catch (IOException e) {
